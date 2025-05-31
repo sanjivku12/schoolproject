@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 body {
+    font-family: 'Poppins', sans-serif;
     background-color: #f0f8ff;
-    font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 2em;
@@ -8,8 +10,26 @@ body {
 
 h1 {
     color: #2c3e50;
+    animation: slideFadeIn 1.5s ease-out forwards;
+    opacity: 0;
+    transform: translateY(-20px);
 }
 
 p {
     color: #34495e;
+    animation: fadeIn 2s ease-in forwards;
+    opacity: 0;
+}
+
+@keyframes slideFadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
