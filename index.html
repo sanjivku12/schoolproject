@@ -14,4 +14,16 @@
     <button class="load-button" onclick="startLoading(this)">Load Something</button>
 
 </body>
+    <script>
+  function startLoading(button) {
+    button.classList.add("loading");
+    button.disabled = true;
+    setTimeout(() => {
+      button.classList.remove("loading");
+      button.disabled = false;
+      alert("Loading complete!");
+    }, 2000); // 2 seconds fake loading
+  }
+</script>
+
 </html>
