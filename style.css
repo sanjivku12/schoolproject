@@ -98,4 +98,19 @@ p {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
+.download-button {
+    display: inline-block;
+    background-color: #2ecc71;
+    color: white;
+    padding: 1em 2em;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #27ae60;
+}
+
 
