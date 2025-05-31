@@ -70,6 +70,56 @@
       background-color: #e9ecef;
       padding: 20px;
       border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    /* Contact form styles */
+    .contact {
+      background-color: #fff3cd;
+      padding: 20px;
+      border-radius: 5px;
+      max-width: 600px;
+      margin: 0 auto 40px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .contact h2 {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .contact form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact label {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .contact input, .contact textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1em;
+      resize: vertical;
+    }
+
+    .contact button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact button:hover {
+      background-color: #45a049;
     }
 
     footer {
@@ -109,6 +159,22 @@
     <section class="about">
       <h2>About Us</h2>
       <p>Sunshine School has been dedicated to excellence in education since 1995. Our experienced teachers and supportive community create a positive learning atmosphere for all students.</p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
     </section>
 
   </div>
