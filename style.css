@@ -34,7 +34,7 @@ section {
 }
 
 .hidden {
-  visibility:none;
+  display:none;
 }
 
 form input,
