@@ -94,8 +94,8 @@ footer {
 
 .banner-text {
   position: absolute;
-  bottom: 20px;
-  left: 30px;
+  bottom: 5px;
+  left: 70px;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 15px 25px;
