@@ -88,11 +88,11 @@ footer {
 .banner img {
   width: 100%;
   height: auto;
-  display: block;
+  /*display: block;*/
 }
 
 .banner-text {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 20px;
   left: 30px;
   color: white;
