@@ -77,4 +77,38 @@ footer {
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+.banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 25px;
+  border-radius: 8px;
+}
+
+.banner-text h2 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.banner-text p {
+  margin: 5px 0 0;
+}
+
+
 
